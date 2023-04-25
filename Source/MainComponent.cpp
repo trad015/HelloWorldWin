@@ -16,9 +16,9 @@ void MainComponent::paint (juce::Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
-    g.setFont (juce::Font (40.0f));
-    g.setColour (juce::Colours::blue);
-    g.drawText ("VST PLUGINS!", getLocalBounds(), juce::Justification::centred, true);
+    g.setFont (juce::Font (35.0f));
+    g.setColour (juce::Colours::red);
+    g.drawText ("VST DESIGN!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
