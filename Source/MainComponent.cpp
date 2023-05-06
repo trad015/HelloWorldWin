@@ -20,7 +20,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (35.0f));
     g.setColour (juce::Colours::red);
-    g.drawText ("VST DESIGN!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("PROGRAMMIEREN LERNEN!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
